@@ -118,7 +118,7 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 ### Caution
 
-- Linkedin monitors the number of profiles uou view and the amount of connection request you send.
+- Linkedin monitors the number of profiles you view and the amount of connection request you send.
 - I strongly recommend you not to visit more than 1500 profiles per week and not send more than 100 connection request per week
 - In case of not obeying the caution, linkedin will send you a warning
 
