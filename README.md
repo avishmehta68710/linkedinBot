@@ -1,6 +1,5 @@
 # LinkedinBot - Make the process of applying and getting referrals easier
 
-Stalking of Other People Linkedin profiles to the next level
 
 ### Overview
 
@@ -115,6 +114,8 @@ available at [http://contributor-covenant.org/version/1/4][version]
 [homepage]: http://contributor-covenant.org
 
 [version]: http://contributor-covenant.org/version/1/4/
+
+### Just For Fun - Stalking of Other People Linkedin profiles to the next level
 
 ### Caution
 
