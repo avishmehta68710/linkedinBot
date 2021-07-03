@@ -1,6 +1,6 @@
 # LinkedinBot - Make the process of applying and getting referrals easier
 
-Stocking of Other People Linkedin profiles to the next level
+Stalking of Other People Linkedin profiles to the next level
 
 ### Overview
 
