@@ -20,8 +20,7 @@ It consists of three stages
 #### Stage3
 
 - In the third stage we retrieve the data of the companies from the second stage and we basically clean the data from the second stage to remove stop words such as Full-time, part-time, contract etc. after cleaning the data we go into each company people section on linkedin and send a customized connection request to all the people working there with a note and your resume.
-- ![stage3](https://user-images.githubusercontent.com/69706506/124387850-28858480-dcf1-11eb-8f22-16af9f9473eb.gif)
-
+- ![stage](https://user-images.githubusercontent.com/69706506/124388953-2a057b80-dcf6-11eb-9200-232bb3e80bd1.gif)
 
 ### Requirements
 
