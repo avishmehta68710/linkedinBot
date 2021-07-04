@@ -48,18 +48,15 @@ for j in range(len(people)):
         parser = soup(src,"html.parser")
         time.sleep(4)
         user = parser.find_all("li",{"class":"grid grid__col--lg-8 pt5 pr4 m0"})
-        print(len(user))
         count = 0
         for i in range(len(user)):
             count += 1
-            print(i)
             time.sleep(2)
             src = driver.page_source
             parser = soup(src,"html.parser")
             WebDriverWait(driver,1000)
             try:
                 connectRequest = driver.find_element_by_xpath("//button[@class='artdeco-button artdeco-button--2 artdeco-button--secondary ember-view full-width']").click()
-                print(connectRequest)
                 addNote = driver.find_element_by_xpath("//button[@class='mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view']")
                 time.sleep(1)
                 addNote.click()
@@ -70,7 +67,6 @@ for j in range(len(people)):
                 send = driver.find_element_by_xpath("//button[@class='ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view']")
                 send.click()
             except:
-                print(True)
                 pass
     else:
         pass
