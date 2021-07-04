@@ -8,7 +8,7 @@ It consists of three stages
 #### Stage 1
 
 - in the first Stage the bot fetches the list of all people working in your dream companies and stores them in a csv file
-- ![stage1](https://user-images.githubusercontent.com/69706506/124387031-12c29000-dcee-11eb-93ab-c7c7dbd053ac.gif)
+- ![stage1](https://user-images.githubusercontent.com/69706506/124388286-5ec40380-dcf3-11eb-9c2d-8f8ef83ae1e5.gif)
 
 
 #### Stage2
