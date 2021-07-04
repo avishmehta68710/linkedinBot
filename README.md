@@ -14,6 +14,8 @@ It consists of three stages
 #### Stage2
 
 - In the second stage the bot goes into all the profiles of the persons from the first stage and scraps all their previous experiences including the company Name, Duration and their work details and store them in a csv file
+- ![stage2](https://user-images.githubusercontent.com/69706506/124387436-c11b0500-dcef-11eb-81b4-7f550f362197.gif)
+
 
 #### Stage3
 
