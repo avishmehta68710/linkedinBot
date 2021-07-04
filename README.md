@@ -30,7 +30,7 @@ It consists of three stages
 
 ### Run it on Local Machine
 
-- In the config.py file add you Linkedin Username, Linkedin Password and the customized message you want to send
+- In the config.py file add you Linkedin Username, Linkedin Password ,the customized message you want to send and the your dream companies
 - For the stage 1 - run the command `python3 stage1.py`
 - For the stage 2 - run the command `python3 stage2.py`
 - For the stage 3 - run the command `python3 stage3.py`
