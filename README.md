@@ -1,4 +1,4 @@
-# LinkedinBot - Make the process of applying and getting referrals easier
+# LinkedinBot - Automating the process of applying and getting referrals easier
 
 
 ### Overview
