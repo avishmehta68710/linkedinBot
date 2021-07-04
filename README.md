@@ -120,7 +120,8 @@ available at [http://contributor-covenant.org/version/1/4][version]
 ### Caution
 
 - Linkedin monitors the number of profiles you view and the amount of connection request you send.
-- I strongly recommend you not to visit more than 1500 profiles per week and not send more than 100 connection request per week
+- I strongly recommend you not to visit more than 1000 profiles and not send more than 100 connection request per week
+- To prevent this i have have added a checker which will break the loop if you exceed the above limits
 - In case of not obeying the caution, linkedin will send you a warning
 
 ### I hope you lend to your dream company soon, keep patience and best of luck for the further process
