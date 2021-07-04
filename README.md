@@ -119,8 +119,6 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [version]: http://contributor-covenant.org/version/1/4/
 
-### Just For Fun - Stalking of Other People Linkedin profiles to the next level
-
 ### Caution
 
 - Linkedin monitors the number of profiles you view and the amount of connection request you send.
