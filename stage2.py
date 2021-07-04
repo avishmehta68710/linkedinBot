@@ -1,7 +1,7 @@
 from dependencies import *
 from login import *
 
-df = pd.read_csv("try.csv")
+df = pd.read_csv("names_and_positions.csv")
 profileLinks = df['ProfileLinks']
 names = df['Name']
 
