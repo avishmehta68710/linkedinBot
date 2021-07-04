@@ -31,6 +31,7 @@ It consists of three stages
 ### Installation
 
 - Clone the respository using the command `git clone https://gitlab.com/<your_username>/linkedinBot.git`  
+- Install all the dependencies using `pip3 install -r requirements.txt`
 
 ### Run it on Local Machine
 
