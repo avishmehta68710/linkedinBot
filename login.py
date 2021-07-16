@@ -1,6 +1,6 @@
 from dependencies import *
 
-driver = dependencies.webdriver.Chrome()
+driver = webdriver.Chrome()
 driver.get("https://www.linkedin.com")
 
 username = driver.find_element_by_id("session_key")
