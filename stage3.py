@@ -56,16 +56,20 @@ for j in range(len(people)):
             parser = soup(src,"html.parser")
             WebDriverWait(driver,1000)
             try:
-                connectRequest = driver.find_element_by_xpath("//button[@class='artdeco-button artdeco-button--2 artdeco-button--secondary ember-view full-width']").click()
-                addNote = driver.find_element_by_xpath("//button[@class='mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view']")
-                time.sleep(1)
-                addNote.click()
-                message = driver.find_element_by_xpath("//textarea[@class='ember-text-area ember-view connect-button-send-invite__custom-message mb3']")
-                name = driver.find_element_by_xpath("//div[@class='org-people-profile-card__profile-title t-black lt-line-clamp lt-line-clamp--single-line ember-view']").text
-                print(name)
-                message.send_keys(config.message)
-                send = driver.find_element_by_xpath("//button[@class='ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view']")
-                send.click()
+                connectRequest = driver.find_element_by_xpath("//button[@class='artdeco-button artdeco-button--2 artdeco-button--secondary ember-view full-width']")
+                if connectRequest:
+                    connectRequest = connectRequest.click()
+                    addNote = driver.find_element_by_xpath("//button[@class='mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary   ember-view']")
+                    time.sleep(1)
+                    addNote.click()
+                    message = driver.find_element_by_xpath("//textarea[@class='ember-text-area ember-view connect-button-send-invite__custom-message mb3']")
+                    name = driver.find_element_by_xpath("//div[@class='org-people-profile-card__profile-title t-black lt-line-clamp lt-line-clamp--single-line ember-view']").text
+                    print(name)
+                    message.send_keys(config.message)
+                    send = driver.find_element_by_xpath("//button[@class='ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view']")
+                    send.click()
+                else:
+                    pass
             except:
                 pass
     else:
