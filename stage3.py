@@ -35,7 +35,7 @@ for j in range(len(arr)):
             people.add(" ".join(designation))
 people = list(people)
 count = 0
-for j in range(1):
+for j in range(len(people)):
     if count > 99:
         break
     driver.get("https://www.linkedin.com/search/results/companies/?keywords=" +
