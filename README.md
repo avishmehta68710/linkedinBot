@@ -27,17 +27,33 @@ It consists of three stages
 - Python3
 - Selenium
 - Beatiful Soup
+- Chrome Driver
 
 ### Installation
 
 - Clone the respository using the command `git clone https://gitlab.com/<your_username>/linkedinBot.git`  
 - Install all the dependencies using `pip3 install -r requirements.txt`
 
+### You will require to install Chrome
+
+- chmod u+=rwx install_chrome.sh
+- ./install_chrome.sh
+
+### You require the Chrome driver for the respective version of your chrome. 
+
+- chmod u+=rwx get_chrome_driver.sh
+- ./get_chrome_driver.sh
+
+Place the chrome driver in the driver folder and you are good to go. One chrome driver is already present but you just need to keep the driver which 
+runs for your Chrome version. Refer this [link](https://chromedriver.chromium.org/downloads) to get the correct chrome driver version for you. 
+
+
 ### Run it on Local Machine
 
 - In the config.py file add you Linkedin Username, Linkedin Password ,the customized message you want to send and the your dream companies
 - chmod u+=rwx script.sh
 - ./script
+
 
 ### Contributing
 
